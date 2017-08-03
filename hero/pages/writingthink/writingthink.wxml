@@ -1,0 +1,38 @@
+<view class="classname">
+
+  <view class="classname">
+    <view class="classname">
+      <text>点赞数</text>
+    </view>
+    <view class="classname">
+      <text>回复数</text>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="list-comment">
+  
+    <block hidden="{{array_list_comment.length ==0 ? true : false }}">
+    
+      <view wx:for="{{array_list_zs}}" wx:key="id" wx:for-item="item" wx:for-index="index" class="scroll-view-item view-item">
+        <view class="v-img">
+          <image class="headimg" src="{{item.avatarUrl}}"></image>
+        </view>
+        <view class="v-num">
+          <text class="cls_comment">评论{{item.comment}} 下标{{index}} </text>
+          <text class="cls_point_agree">赞同 {{item.point_agree}} </text>
+          <text class="cls_point_oppose">反对 {{item.point_oppose}} </text>
+        </view>
+        <view class="v-content">
+          <text class="txt_content">{{item.content}} </text>
+        </view>
+      </view>
+    </block>
+    <view hidden="{{array_list_zs.length ==0 ?   false : true }}">
+      <view bindtap="refreshdata" class="nodata-img">
+        <text style="display:block;font-size:12px;padding-bottom:10px;">暂无数据/暂无网络,点击刷新试试</text>
+        <image class="headimg" src="../img/icon-refresh.png"></image>
+      </view>
+
+    </view>
+  </scroll-view>
+</view>

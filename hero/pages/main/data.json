@@ -1,0 +1,29 @@
+{
+  "array_list_zs": [
+    {
+      "comment": "10",
+      "id": 1,
+      "point_agree": "12",
+      "point_oppose": "25",
+      "avatarUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498299294437&di=522b0e8d677f7322a341f5bfa540492e&imgtype=0&src=http%3A%2F%2Fwww.muu.com.cn%2Fimg%2Fdd%2F3a24ac9c8b247deddbc8542bc6dc899914dd720373d6efbf94d2ebe65dd2d2016a13677576e00280.jpg",
+      "content": "如何进行ajax 请求/下拉刷新，上拉加载/暂无数据/暂无网络处理"
+    }
+    ,
+    {
+      "comment": "10",
+      "id": 1,
+      "point_agree": "12",
+      "point_oppose": "25",
+      "avatarUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498299294437&di=522b0e8d677f7322a341f5bfa540492e&imgtype=0&src=http%3A%2F%2Fwww.muu.com.cn%2Fimg%2Fdd%2F3a24ac9c8b247deddbc8542bc6dc899914dd720373d6efbf94d2ebe65dd2d2016a13677576e00280.jpg",
+      "content": "如何进行ajax 请求/下拉刷新，上拉加载/暂无数据/暂无网络处理"
+    }
+    ,{
+      "comment": "10",
+      "id": 1,
+      "point_agree": "12",
+      "point_oppose": "25",
+      "avatarUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498299294437&di=522b0e8d677f7322a341f5bfa540492e&imgtype=0&src=http%3A%2F%2Fwww.muu.com.cn%2Fimg%2Fdd%2F3a24ac9c8b247deddbc8542bc6dc899914dd720373d6efbf94d2ebe65dd2d2016a13677576e00280.jpg",
+      "content": "如何进行ajax 请求/下拉刷新，上拉加载/暂无数据/暂无网络处理"
+    }
+  ]
+}

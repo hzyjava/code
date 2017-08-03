@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.troy.fragmentnavigation.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+        <TextView
+            android:id="@+id/title"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的订单"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mainViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/item_weixin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="微信"
+            android:textSize="15dp"
+            android:textColor="@drawable/main_tab_text_color"/>
+        <TextView
+            android:id="@+id/item_tongxunlu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="通讯录"
+            android:textSize="15dp"
+            android:textColor="@drawable/main_tab_text_color"/>
+        <TextView
+            android:id="@+id/item_faxian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="发现"
+            android:textSize="15dp"
+            android:textColor="@drawable/main_tab_text_color"/>
+        <TextView
+            android:id="@+id/item_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="我"
+            android:textSize="15dp"
+            android:textColor="@drawable/main_tab_text_color"/>
+    </LinearLayout>
+
+</LinearLayout>

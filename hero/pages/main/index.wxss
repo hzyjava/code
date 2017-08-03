@@ -1,0 +1,64 @@
+/**
+页面样式表
+**/
+
+.vhead{
+ display: flex;
+ flex-direction:column;
+ align-items:center;
+}
+.headimg{
+ height: 128rpx;
+ width: 128rpx;
+margin: 20rpx;
+border-radius:50%;
+}
+.headname{
+  color: #aaa;
+}
+
+.vinfo{
+ margin-top: 50%;
+}
+.txtinfo{
+  display: block;
+
+}
+
+/**
+哲思录列表
+**/
+.list-zhesi{
+
+}
+.list-zhesi .view-item{
+ width: 100%;
+ padding:15rpx 5rpx;
+}
+.v-img{
+  display: inline-block;
+  float: left;
+}
+.v-num{
+  display: inline-block;
+  float: left;
+  padding-top: 18px;
+  font-size: 14px;
+}
+.cls_comment{
+  display: block;
+}
+.cls_point_agree{
+  display: block;
+}
+.cls_point_oppose{
+  display: block;
+}
+.v-content{
+  padding: 0 10px;
+  clear: both;
+  overflow: hidden;
+}
+.txt_content{
+  font-size: 15px;
+}

@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/main/index",
+    "pages/logs/logs",
+    "pages/writingthink/writingthink"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor":"#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "今天你哲思了吗",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  }, 
+  "debug":true,
+  "tabBar": {
+  "selectedColor": "#62b900",
+  "backgroundColor": "#eee",
+  "borderStyle": "white",
+  "position":"bottom",
+   "color": "#000",
+    "list": [
+      {
+      "pagePath": "pages/main/index",
+      "text": "哲思",
+       "iconPath":"pages/img/main-tab-1.png",
+       "selectedIconPath":"pages/img/main-tab-1-ac.png"
+       },
+       {
+        "pagePath": "pages/logs/logs",
+        "text": "文笔",
+        "iconPath": "pages/img/main-tab-2.png",
+        "selectedIconPath": "pages/img/main-tab-2-ac.png"
+       }
+       ,
+      {
+        "pagePath": "pages/main/index2",
+        "text": "我吧",
+        "iconPath": "pages/img/main-tab-3.png",
+        "selectedIconPath": "pages/img/main-tab-3-ac.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+  
+}
