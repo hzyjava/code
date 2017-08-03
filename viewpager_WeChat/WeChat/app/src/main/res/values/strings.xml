@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeChat</string>
+
+
+    <string name="menu_main1">沟通</string>
+    <string name="menu_main2">通讯</string>
+    <string name="menu_main3">精彩</string>
+    <string name="menu_main4">我</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
